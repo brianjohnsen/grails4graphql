@@ -74,6 +74,12 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.14.0"
 
 
+    testCompile "org.grails:grails-datastore-rest-client:6.1.12.RELEASE"
+
+    compile 'com.graphql-java:graphql-spring-boot-starter:5.0.2'
+    compile 'com.graphql-java:graphiql-spring-boot-starter:5.0.2'
+    compile 'com.graphql-java:graphql-java-tools:5.2.4'
+
 }
 
 bootRun {
